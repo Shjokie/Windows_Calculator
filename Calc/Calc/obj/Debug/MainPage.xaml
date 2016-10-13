@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="Calc.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calc"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBox x:ConnectionId='1' x:Name="textBox" HorizontalAlignment="Left" Height="47" Margin="63,157,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="277"                                  />
+        <Button x:ConnectionId='2' x:Name="button" Content="1" HorizontalAlignment="Left" Height="1" Margin="10,231,0,0" VerticalAlignment="Top" FontSize="18" Width="49"                     />
+        <Button x:ConnectionId='3' x:Name="button1" Content="2" HorizontalAlignment="Left" Margin="144,231,0,0" VerticalAlignment="Top"                      />
+        <Button x:ConnectionId='4' x:Name="button2" Content="3" HorizontalAlignment="Left" Margin="281,231,0,0" VerticalAlignment="Top"                      />
+        <Button x:ConnectionId='5' x:Name="button3" Content="4" HorizontalAlignment="Left" Margin="10,305,0,0" VerticalAlignment="Top"                      />
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="240,339,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:ConnectionId='6' x:Name="button4" Content="5" HorizontalAlignment="Left" Margin="144,305,0,0" VerticalAlignment="Top"                      />
+        <Button x:ConnectionId='7' x:Name="button5" Content="6" HorizontalAlignment="Left" Margin="281,305,0,0" VerticalAlignment="Top"                      />
+        <Button x:ConnectionId='8' x:Name="button6" Content="7" HorizontalAlignment="Left" Margin="10,367,0,0" VerticalAlignment="Top"                      />
+        <Button x:ConnectionId='9' x:Name="button7" Content="8" HorizontalAlignment="Left" Margin="144,365,0,0" VerticalAlignment="Top"                      />
+        <Button x:ConnectionId='10' x:Name="button8" Content="9" HorizontalAlignment="Left" Margin="281,367,0,0" VerticalAlignment="Top"                      />
+        <Button x:ConnectionId='11' x:Name="button9" Content="0" HorizontalAlignment="Left" Margin="144,434,0,0" VerticalAlignment="Top"                      />
+        <Button x:ConnectionId='12' x:Name="button10" Content="=" HorizontalAlignment="Left" Margin="281,434,0,0" VerticalAlignment="Top"                       />
+        <Button x:ConnectionId='13' x:Name="button11" Content="/" HorizontalAlignment="Left" Margin="10,434,0,0" VerticalAlignment="Top"                       />
+        <Button x:ConnectionId='14' x:Name="button12" Content="*" HorizontalAlignment="Left" Margin="10,508,0,0" VerticalAlignment="Top"                       />
+        <Button x:ConnectionId='15' x:Name="button13" Content="-" HorizontalAlignment="Left" Margin="144,508,0,0" VerticalAlignment="Top"                       />
+        <Button x:ConnectionId='16' x:Name="button14" Content="+" HorizontalAlignment="Left" Margin="281,508,0,0" VerticalAlignment="Top"                       />
+        <Button x:ConnectionId='17' x:Name="button15" Content="Clear" HorizontalAlignment="Left" Margin="144,569,0,0" VerticalAlignment="Top"                       />
+        <TextBox x:Name="txtFunction" Visibility="Collapsed" HorizontalAlignment="Left" Height="55" Margin="27,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="118"/>
+        <TextBox x:Name="txtValue" Visibility="Collapsed" HorizontalAlignment="Left" Height="55" Margin="253,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="137"/>
+        <TextBox x:Name="txtdot" Visibility="Collapsed" HorizontalAlignment="Left" Height="15" Margin="84,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148"/>
+        <Button x:ConnectionId='18' x:Name="button16" Content="." HorizontalAlignment="Left" Height="38" Margin="10,569,0,0" VerticalAlignment="Top" Width="59"                       />
+
+    </Grid>
+</Page>
+
